@@ -1,0 +1,81 @@
+{
+  "product": [
+    {
+      "productid": "13",
+      "productname": "mobile",
+      "productprice": 250809,
+      "productcategory": "electronics",
+      "producturl": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSECPzK2ZEl3VN1VrtkiSGXv0ysxQVXemOW454ZGtmz1JPF0ZWFX9Mn2GsZXbTSzMkvBjk0GEqmtE7mA63Mn0LkRcgDFXvuBtprMv0KLsZy",
+      "id": 1
+    },
+    {
+      "productid": "2",
+      "productname": "dining table",
+      "productprice": 15000,
+      "productcategory": "furniture",
+      "producturl": "https://wakefitdev.gumlet.io/img/dining/sets/ginamon-4S/1.jpg?w=1700",
+      "id": 2
+    }
+  ],
+  "signup": [
+    {
+      "email": "tes@gmail.com",
+      "password": "test11212",
+      "name": "test",
+      "city": "mumbai",
+      "id": 1
+    },
+    {
+      "email": "tes@gmail.com",
+      "password": "test11212",
+      "name": "test",
+      "city": "mumbai",
+      "id": 2
+    },
+    {
+      "email": "test2",
+      "password": "rrrr",
+      "name": "test",
+      "city": "chennai",
+      "id": 3
+    },
+    {
+      "email": "abhiram@gmail.com",
+      "password": "abhi123",
+      "name": "abhiramsdas",
+      "city": "calicut",
+      "id": 4
+    },
+    {
+      "email": "abhi@gmail.com",
+      "password": "abhi",
+      "name": "abhiram",
+      "city": "kozhikode",
+      "id": 5
+    },
+    {
+      "email": "shine@gmail.com",
+      "password": "shine",
+      "name": "shine",
+      "city": "kozhikode",
+      "id": 6
+    },
+    {
+      "email": "vivek@mail.com",
+      "password": "vivek",
+      "name": "vivek",
+      "city": "kozhikode",
+      "id": 7
+    },
+    {
+      "email": "vivek@gmail.com",
+      "password": "vivek",
+      "name": "vivek",
+      "city": "kozhikode",
+      "id": 8
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

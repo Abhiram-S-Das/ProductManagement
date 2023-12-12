@@ -1,0 +1,45 @@
+<nav class="navbar">
+    <div class="container-fluid">
+        <a style="color: white;margin-left:45%;"><h3>View product details</h3></a>
+        
+        <button routerLink="/login-product" class="btn btn-danger">Logout</button>
+
+    </div>
+</nav>
+
+<div class="container-fluid container">
+    <button routerLink="/add-product" class="btn btn-success">Add product <i class="fa-solid fa-plus"></i> </button>
+    <table class="table mt-4 table-stripped table-bordered">
+        <thead>
+
+            <tr>
+                <th scope="col">Product Image</th>
+                <th scope="col">Product id</th>
+                <th scope="col">Product name</th>
+                <th scope="col">Product price</th>
+                <th scope="col">Product category</th>
+                
+                <th scope="col">Action</th>
+                
+
+            </tr>
+        </thead>
+        <tbody>
+
+            <tr *ngFor="let item of product">
+                <td><img style="width: 156px;height:95px;" src="{{item.producturl}}"></td>
+                <td>{{item.productid}}</td>
+                <td>{{item.productname}}</td>
+                <td>{{item.productprice}}</td>
+                <td>{{item.productcategory}}</td>
+                
+                <td><i routerLink="/update-product/{{item.id}}" class="fa fa-edit"></i>&nbsp;
+                    <i (click)="deleteproduct(item.id)" class="fa fa-trash"></i>
+                 </td>
+            </tr>
+        </tbody>
+
+
+    </table>
+
+</div>
